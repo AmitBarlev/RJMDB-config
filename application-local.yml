@@ -1,0 +1,9 @@
+persistence:
+  database:
+    driver: "override"
+    protocol: "override"
+    host: "override"
+    port: 1111
+    user: "override"
+    password: "override"
+    database-name: "override"
