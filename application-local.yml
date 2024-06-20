@@ -1,9 +1,11 @@
+
+
 persistence:
   database:
-    driver: "override"
-    protocol: "override"
-    host: "override"
-    port: 1111
-    user: "override"
-    password: "override"
-    database-name: "override"
+    driver: "postgresql"
+    protocol: "r2dbc"
+    host: "127.0.0.1"
+    port: 5432
+    user: "user"
+    password: "password"
+    database-name: "db"
